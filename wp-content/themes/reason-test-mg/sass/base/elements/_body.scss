@@ -1,0 +1,25 @@
+body {
+	background: $color__background-body;
+	color: $color__text-main;
+
+	&::before {
+		content: "";
+		inset: 0;
+		background-color: transparent;
+		backdrop-filter: blur(5px);
+		position: fixed;
+		z-index: 25;
+		pointer-events: none;
+		opacity: 0;
+		will-change: opacity;
+		transition: opacity 0.4s ease 0.6s;
+
+	}
+
+	&.nav-is-open {
+		&::before {
+			opacity: 1;
+			transition: opacity 0.4s ease 0.6s;
+		}
+	}
+}

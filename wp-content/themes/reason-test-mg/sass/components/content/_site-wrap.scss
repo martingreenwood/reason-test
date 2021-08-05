@@ -1,0 +1,9 @@
+.site {
+
+	&__wrap {
+		@include center-block;
+		max-width: rem-calc(1160);
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}

@@ -1,0 +1,41 @@
+.site {
+
+	&__main {
+
+        &--single {
+            display: flex;
+
+            &-background {
+                position: fixed;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                width: 50vw;
+                z-index: -1;
+            }
+
+            &-inner {
+                width: 25vw;
+            }
+
+            &-header {
+
+            }
+
+            &-title {
+
+            }
+
+            &-entry {
+                height: 200px;
+                overflow: auto;
+            }
+
+            &-tasks-list {
+                margin: rem-calc(40) 0 0 0;
+                padding: 0;
+                list-style: none;
+            }
+        }
+	}
+}

@@ -1,0 +1,38 @@
+.site {
+
+	&__header {
+		display: flex;
+        justify-content: space-between;
+        margin-top: rem-calc(50 );
+        margin-bottom: rem-calc(100);
+        z-index: 100;
+        position: relative;
+
+        &--branding {
+            img {
+                width: rem-calc(80);
+                height: auto;
+                display: block;
+            }
+        }
+
+        &--menu-toggle {
+            &,
+            &:active,
+            &:focus,
+            &:hover {
+                cursor: pointer;
+                background: transparent;
+                padding: 0;
+                border: 0;
+                outline: 0;
+                box-shadow: none;
+
+                svg {
+                    width: rem-calc(30);
+                    height: auto;
+                }
+            }
+        }
+	}
+}

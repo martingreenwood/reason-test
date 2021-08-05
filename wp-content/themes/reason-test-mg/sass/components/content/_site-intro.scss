@@ -1,0 +1,41 @@
+.site {
+
+	&__intro {
+        margin-bottom: rem-calc(30);
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        &--content {
+            flex: 0 0 40%;
+        }
+
+        &--heading {
+            margin-top: 0;
+            margin-bottom: rem-calc(20);
+        }
+
+        &--text {
+            p {
+                margin: 0;
+            }
+        }
+
+        &--categories {
+            flex: 0 0 60%;
+
+
+            &-list {
+                margin: 0;
+                list-style: none;
+                display: flex;
+                gap: rem-calc(30);
+                justify-content: flex-end;
+
+                .cat-item {
+                    margin: 0;
+                }
+            }
+        }
+	}
+}

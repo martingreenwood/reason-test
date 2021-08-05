@@ -1,0 +1,34 @@
+.site {
+
+	&__main {
+        display: grid;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1rem;
+
+        &--article {
+            margin-bottom: rem-calc(40);
+
+            &-thumbnail {
+                margin-bottom: rem-calc(20);
+                display: block;
+
+                img {
+                    display: block;
+                }
+            }
+
+            &-header {
+
+                h2 {
+                    margin: 0;
+                    font-size: rem-calc(17);
+                    text-overflow: ellipsis;
+                    width: 90%;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+            }
+        }
+	}
+}
