@@ -65,8 +65,6 @@ define( 'WP_CACHE_KEY_SALT', '6uCE7T6-.x)|SoI=SMy(;4yfNe{%MvYTg-8e&-+MzMFJopAp4^
 $table_prefix = 'wp_';
 
 
-
-
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
